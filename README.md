@@ -2,6 +2,7 @@
 Easily Upload Images to react
 
 ![Demo Image should be here](screenshot.png?raw=true "Title")
+![Demo Image should be here](screenshotWithFile.png?raw=true "Title")
 
 # Usage
 Import The Component from whereever you put it.
