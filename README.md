@@ -1,4 +1,4 @@
-# ReactImageUpload
+# ReactUploadImage
 Easily Upload Images to react
 
 ![Demo Image should be here](screenshot.png?raw=true "Title")
