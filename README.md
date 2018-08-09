@@ -26,7 +26,26 @@ or to use fileName:
 
 ```
 
+so if you want to use fileName its better to structure your return like:
+```
+return (
+{this.doWehaveAFileChecker()}
+)
+```
+and put this in ```doWeHaveAFileChecker()```:
+```
+doWehaveAFileChecker() {
+    if (this.state.fileName) {
+      return (<UploadImageComp bgColor={"#BADA55"} fileHandler={this.fileSelectHandler} fileName={this.state.fileName}/>
+      )
+    } else {
+      return (<UploadImageComp bgColor={"#BADA55"} fileHandler={this.fileSelectHandler}/>
+      )
+    }
+  }
+```
 
+Don't forget to add ```this.doWeHaveAFileChecker = this.doWeHaveAFileChecker``` to your constructor.
 
 
 # Props
