@@ -22,7 +22,7 @@ fileHandler: function to handle the uploaded file.
 Example of fileHandler function:
 ```javascript
 
-fileSelectHandler = event => {
+fileHandler = event => {
 #the file is event.target.files[0] you can do whatever you want once you have it
   this.setState({
     photoFile: event.target.files[0]
