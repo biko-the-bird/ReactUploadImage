@@ -1,7 +1,7 @@
 # ReactImageUpload
 Easily Upload Images to react
 
-![Alt text](/screenshot.png?raw=true "Demo Image")
+![Demo Image should be here](screenshot.png?raw=true "Title")
 
 # Usage
 Import The Component from whereever you put it.
